@@ -1,0 +1,21 @@
+{
+    "name": "chatterly-backend",
+    "version": "1.0.0",
+    "description": "Chatterly real-time chat backend with Socket.io",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "firebase-admin": "^12.0.0",
+        "socket.io": "^4.7.4",
+        "expo-server-sdk": "^3.7.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
